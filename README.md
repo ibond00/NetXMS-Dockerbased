@@ -1,6 +1,6 @@
 # NetXMS-Dockerbased
 
-Modified repo of @hellofaduck with WebUI included
+Modified repo of @hellofaduck with WebUI included.
 Original link: https://github.com/hellofaduck/NetXMS-Docker
 
 Automaticaly builds with latest availaible version of NetXMS. 
