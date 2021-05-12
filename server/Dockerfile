@@ -1,6 +1,7 @@
 # Dockerfile for building NetXMS server image
 
 FROM ubuntu:20.04
+LABEL maintainer = "Ivan Bondarev <bondarev.ia@sentium.ru>"
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections && \
     apt-get update && \
