@@ -1,7 +1,7 @@
-NetXMS-Dockerbased
+# NetXMS-Dockerbased
 
-# Modified repo of @hellofaduck with WebUI included
-# Original link: https://github.com/hellofaduck/NetXMS-Docker
+Modified repo of @hellofaduck with WebUI included
+Original link: https://github.com/hellofaduck/NetXMS-Docker
 
 Automaticaly builds with latest availaible version of NetXMS. 
 - Current version of NetXMS in image on docker hub is 3.8
