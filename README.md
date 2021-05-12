@@ -1,5 +1,8 @@
 NetXMS-Dockerbased
 
+# Modified repo of @hellofaduck with WebUI included
+# Original link: https://github.com/hellofaduck/NetXMS-Docker
+
 Automaticaly builds with latest availaible version of NetXMS. 
 - Current version of NetXMS in image on docker hub is 3.8
 - If you dont have your own postgres database server (or docker image with postgres) use docker compose file from github repo to deploy a complete stack. For update netxms in stack from my docker compose file do not use ouroboros or watchtower, just recompose whole stack with docker-compose, it can save you from problem:"Can't resolve postgres hostname" wich shows up in netxms logs (i try to fix this in future relases)
