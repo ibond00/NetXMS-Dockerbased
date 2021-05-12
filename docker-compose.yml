@@ -11,7 +11,7 @@ services:
             - pgdata:/var/lib/postgresql/data
 
     netxms-server:
-        image: ibonder/netxms-server:2
+        image: ibonder/netxms-server:latest
         restart: unless-stopped
         ports:
             - "4701:4701" # client -> server
@@ -36,7 +36,7 @@ services:
         command: ["./docker-entrypoint.sh"]
     
     netxms-webui:
-        image: ibonder/netxms-webui:3
+        image: ibonder/netxms-webui:latest
         ports:
             - "8080:8080"
 
