@@ -16,3 +16,5 @@ Instruction for a complete deploy:
 4) run "docker-compose up" and wait for everything to deploy
 5) open your browser and type "http://NODE-IP:8080/nxmc/nxmc"
 6) great, you've successfully deployed NetXMS network monitoring and management system and you won't lose your config if something, because postgre has a persistant volume!
+
+If anything, feel free to contact me on reddit https://www.reddit.com/user/hellofaduck or via GitHub Issues segment
