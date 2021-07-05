@@ -3,7 +3,7 @@
 FROM tomcat:9
 LABEL maintainer = "Ivan Bondarev <bondarev.ia@sentium.ru>"
 
-ENV VERSION=3.8.314 NETXMS_SERVER=netxms-server NETXMS_SESSIONTIMEOUT=120 NETXMS_ENABLEADVANCEDSETTINGS=true
+ENV VERSION=3.8.382 NETXMS_SERVER=netxms-server NETXMS_SESSIONTIMEOUT=-1 NETXMS_ENABLEADVANCEDSETTINGS=true
 
 COPY ./docker-entrypoint.sh /
 
